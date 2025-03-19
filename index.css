@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background: #1B244A
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3 {
+    color: white;
+}
+
+button {
+    border: 1px solid white;
+    color: white;
+    background-color: #1B244A;
+    border-radius: 5px;
+}
+
+
+.score {
+    background-color: black;
+    color: #F94F6D;
+    padding: 10px 20px;
+}
+
+
+.reset-button {
+    display: flex;
+    justify-self: center;
+    width: 80%;
+    justify-content: center;
+    padding: 5px 0;
+    margin: 1rem 0;
+    text-transform: uppercase;
+}
+
+button:hover {
+    color: #1B244A;
+    background-color: white;
+}
