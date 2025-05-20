@@ -1,49 +1,58 @@
 body {
-    margin: 0;
-    background: #1B244A
+  margin: 0;
+  background: #ffffff;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(176, 176, 176, 1) 100%
+  );
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .group {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 h3 {
-    color: white;
+  color: white;
 }
 
 button {
-    border: 1px solid white;
-    color: white;
-    background-color: #1B244A;
-    border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+  background: #833ab4;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  border-radius: 5px;
 }
-
 
 .score {
-    background-color: black;
-    color: #F94F6D;
-    padding: 10px 20px;
+  background-color: black;
+  color: #f94f6d;
+  padding: 10px 20px;
 }
 
-
 .reset-button {
-    display: flex;
-    justify-self: center;
-    width: 80%;
-    justify-content: center;
-    padding: 5px 0;
-    margin: 1rem 0;
-    text-transform: uppercase;
+  display: flex;
+  justify-self: center;
+  width: 80%;
+  justify-content: center;
+  padding: 5px 0;
+  margin: 1rem 0;
+  text-transform: uppercase;
 }
 
 button:hover {
-    color: #1B244A;
-    background-color: white;
+  color: #1b244a;
+  background-color: white;
 }
